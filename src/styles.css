@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #db2777;
+}
+body {
+  background-color: cyan;
+}
+#headtext {
+  font-size: 50px;
+  background-color: white;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+}
+#btn {
+  background-color: var(--primary-color); /* Green */
+  border-bottom: 1rad;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
