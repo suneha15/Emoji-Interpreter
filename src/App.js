@@ -6,14 +6,12 @@ var textColor = "#DB2777";
 var username = "Suneha";
 
 export default function App() {
-  const [likeCounter, setLikeCounter] = useState(0);
+  var [userInput, setuserInput] = useState("");
 
-  function likeClickHandler() {
-    var newlikeCounter = likeCounter + 1;
-    setLikeCounter(newlikeCounter);
+  function changeEventHandler(event) {
+    console.log(event.target.value);
+    setuserInput(event.target.value);
   }
-
-  console.log("likeCounter", likeCounter);
 
   return (
     <div className="App">
@@ -23,10 +21,8 @@ export default function App() {
       <h1>
         Welcome <span style={{ backgroundColor: textColor }}>{username}</span>
       </h1>
-      <button id="btn" onClick={likeClickHandler}>
-        Like Me!
-      </button>{" "}
-      {likeCounter}
+      <input onChange={changeEventHandler}></input>
+      <div>Welcome {userInput}</div>
     </div>
   );
 }
