@@ -25,3 +25,12 @@ body {
   display: inline-block;
   font-size: 20px;
 }
+input {
+  padding: 1rem;
+  width: 80%;
+  font-size: 80%;
+  border-top-left-radius: 0.5cm;
+  border-top-right-radius: 0.5cm;
+  border-bottom-left-radius: 0.5cm;
+  border-bottom-right-radius: 0.5cm;
+}
