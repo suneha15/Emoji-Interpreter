@@ -40,7 +40,8 @@ input {
   border-bottom-left-radius: 0.5cm;
   border-bottom-right-radius: 0.5cm;
 }
-#emoji {
+#emojis {
   padding: 20px;
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 40px;
 }
