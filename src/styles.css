@@ -2,18 +2,23 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
 :root {
   --primary-color: #db2777;
+  --secondary-color: #e5e7eb;
 }
 body {
-  background-color: cyan;
+  background-color: var(--secondary-color);
 }
-#headtext {
-  font-size: 50px;
-  background-color: white;
+#headText {
+  font-size: 60px;
   text-align: center;
   display: block;
   padding: 1rem;
+  color: var(--primary-color);
+  font-family: "Indie Flower", cursive;
 }
 #btn {
   background-color: var(--primary-color); /* Green */
@@ -28,9 +33,14 @@ body {
 input {
   padding: 1rem;
   width: 80%;
-  font-size: 80%;
+  font-size: 25px;
+  text-align: center;
   border-top-left-radius: 0.5cm;
   border-top-right-radius: 0.5cm;
   border-bottom-left-radius: 0.5cm;
   border-bottom-right-radius: 0.5cm;
+}
+#emoji {
+  padding: 20px;
+  font-size: 30px;
 }
